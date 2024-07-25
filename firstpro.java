@@ -5,6 +5,6 @@ public class firstpro {
         int a = 40;
         System.out.println(a);
         System.out.println("alakh niranjal");
-        System.out.println("Somya srivastav");
+        System.out.println("Gaurav Ghildiyal ");
     }
 }

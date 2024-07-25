@@ -47,12 +47,33 @@ public class pattern1 {
         } while (i <= 5);
     }
 
+    public static void forloopp() {
+        for (int i = 1; i <= 10; i++) {
+            if (i == 7) {
+                break;
+            }
+            System.out.println(i);
+        }
+
+    }
+
+    public static void continuesta() {
+        for (int i = 2; i <= 10; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+
+        }
+    }
+
     public static void main(String args[]) {
-        forloop();
-        System.out.println("whileloop");
-        whileloop();
-        System.out.println("dowhileloop");
-        dowhileloop();
+        // forloop();
+        // System.out.println("whileloop");
+        // whileloop();
+        // System.out.println("dowhileloop");
+        // dowhileloop();
+        // forloopp();
+        continuesta();
 
     }
 }
